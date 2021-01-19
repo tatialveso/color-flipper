@@ -7,22 +7,10 @@
     font-family: "Roboto", sans-serif;
 }
 
-header {
-    padding: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    background-color: #FFFEFA;
-}
-
-header h2 {
-    color: #B54365;
-    font-weight: 900;
-    letter-spacing: 2px;
-    padding-left: 50px;
-}
-
 .container {
-    text-align: center;
-    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    padding: 35vh 0;
 }
 
 .container h2 {
@@ -32,7 +20,7 @@ header h2 {
     text-align: center;
     letter-spacing: 3px;
     border-radius: 0.5rem;
-    max-width: fit-content;
+    max-width: 100%;
     padding: 20px;
     margin: auto;
     margin-bottom: 20px;
@@ -47,7 +35,7 @@ button {
     border-radius: 0.5rem;
     border: 2px solid #242424;
     color: #242424;
-    margin: auto;
+    margin: 0 auto;
     background-color: transparent;
     font-size: 18px;
     text-transform: uppercase;
@@ -60,4 +48,11 @@ button:hover {
     background-color:#242424;
     color: #ffffff;
     transition: all 0.3s;
+}
+
+@media (max-width: 550px) {
+    .container h2 {
+        max-width: 80%;
+        padding: 3vh 0;
+    }
 }
