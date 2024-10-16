@@ -1,16 +1,7 @@
-<h1 align="center">:rainbow: Color flipper</h1>
+<h1 align="center">:rainbow: color flipper</h1>
 
-## :memo: Descrição
-Aplicação que escolhe uma cor aleatoriamente e oferece o seu número em hexa.
+## :memo: description
+in this application when you click on the button a random color pops on the screen and you get its hex code.
 
-## :books: Conteúdo
-* <b>Click Me:</b> ao clicar no botão o site muda de cor de acordo com o código hexa da cor.
-
-## :wrench: Tecnologias utilizadas
-* VS Code;
-* HTML;
-* CSS;
-* JavaScript.
-
-## :dart: Status do projeto
-O projeto está finalizado.
+## :wrench: how was this coded
+this project was coded in **vs code** using **html**, **css** and **javascript**.
